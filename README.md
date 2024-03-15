@@ -29,17 +29,23 @@ A pre-trained MobileNet model is fine-tuned for the clothing and bag classificat
 
 ## Fine-tuned MobileNet
 Accuracy: 100%
+
 Inference Time: 0.05988
+
 The fine-tuned MobileNet model achieved a perfect accuracy of 100% on the test dataset. This high accuracy is expected as the model was pre-trained on a large dataset and fine-tuned on the specific clothing and bag classification task.
 
 ## MobileNet (From Scratch)
 Accuracy: 85%
+
 Inference Time: 0.04141
+
 The custom MobileNetV1 model achieved an accuracy of 85% on the test dataset. Despite being trained from scratch, the model performed reasonably well, demonstrating its effectiveness in feature extraction and classification.
 
 ## AlexNet (From Scratch)
 Accuracy: 76%
+
 Inference Time: 0.03673
+
 The custom AlexNet model achieved an accuracy of 76% on the test dataset. Although it performed slightly lower compared to MobileNet, it still demonstrated decent performance in classifying clothing and bags.
 
 #### These results suggest that fine-tuning a pre-trained model like MobileNet can lead to superior performance compared to training models from scratch, especially when dealing with limited training data.
