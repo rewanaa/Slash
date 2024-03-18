@@ -16,7 +16,7 @@ You can download the dataset from [Kaggle](https://www.kaggle.com/datasets/comvi
 
 -Data augmentation techniques such as random horizontal flip, random rotation, color jitter, random erasing, and RandAugment are applied to increase the diversity of the dataset and improve model generalization.
 
-# Model Architectures
+# Models Architecture
 ## MobileNet from Scratch
 A custom MobileNet model is implemented from scratch. It consists of depthwise separable convolutions and achieves lightweight and efficient feature extraction.
 
@@ -41,7 +41,7 @@ Accuracy: 85%
 
 Inference Time: 0.04141
 
-The custom MobileNetV1 model achieved an accuracy of 85% on the test dataset. Despite being trained from scratch, the model performed reasonably well, demonstrating its effectiveness in feature extraction and classification.
+The custom MobileNet model achieved an accuracy of 85% on the test dataset. Despite being trained from scratch, the model performed reasonably well, demonstrating its effectiveness in feature extraction and classification.
 
 ## AlexNet (From Scratch)
 Accuracy: 76%
